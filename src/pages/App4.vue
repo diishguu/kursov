@@ -297,7 +297,6 @@ body {
   background: #222 center/cover no-repeat;
 
 }
-/* Header */
 .header {
   position: relative;
   z-index: 3;
@@ -307,7 +306,6 @@ body {
   padding: 28px 40px;
 }
 
-/* Logo */
 
 .logo {
   display: flex;

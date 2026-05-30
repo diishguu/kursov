@@ -1042,7 +1042,6 @@ footer p {
 }
 @media (max-width: 700px) {
 
-  /* HEADER */
   .header {
     flex-direction: column;
     align-items: center;
@@ -1086,7 +1085,6 @@ footer p {
     padding: 12px 18px;
   }
 
-  /* MAIN BLOCK */
   .main-block {
     flex-direction: column;
     align-items: center;
@@ -1109,7 +1107,6 @@ footer p {
     font-size: 24px;
   }
 
-  /* FORM */
   .form-box {
     width: 100%;
     padding: 25px 15px;

@@ -141,10 +141,8 @@ const footerDocuments = [
 
       <h2 class="reviews-title">ОТЗЫВЫ</h2>
 
-      <!-- Форма -->
       <form class="review-form" @submit.prevent="addReview">
 
-        <!-- Аватар -->
         <div class="avatar-box">
 
           <img
@@ -170,12 +168,9 @@ const footerDocuments = [
 
         </div>
 
-        <!-- Контент -->
         <div class="form-content">
 
           <div class="form-top">
-
-            <!-- Имя -->
             <input
                 v-model="userName"
                 type="text"
@@ -325,7 +320,6 @@ body {
   background: #222 center/cover no-repeat;
 
 }
-/* Header */
 .header {
   position: relative;
   z-index: 3;
@@ -334,8 +328,6 @@ body {
   align-items: flex-start;
   padding: 28px 40px;
 }
-
-/* Logo */
 
 .logo {
   display: flex;
@@ -398,8 +390,6 @@ body {
   color: white;
   font-size: 18px;
 }
-
-/* Main content */
 .content {
   position: relative;
   z-index: 3;
@@ -422,7 +412,6 @@ body {
   margin-bottom: 70px;
 }
 
-/* Buttons */
 .buttons {
   display: flex;
   gap: 90px;
@@ -513,9 +502,6 @@ color: white;
   margin-bottom:35px;
   font-weight:500;
 }
-
-/* form */
-
 .review-form{
   background:#d4dbdb;
   border-radius:28px;
@@ -524,8 +510,6 @@ color: white;
   gap:20px;
   margin-bottom:45px;
 }
-
-/* avatar */
 
 .avatar-box{
   position:relative;
@@ -554,8 +538,6 @@ color: white;
   cursor:pointer;
 }
 
-/* content */
-
 .form-content{
   flex:1;
 }
@@ -578,9 +560,6 @@ color: white;
 .name-input::placeholder{
   color:#000;
 }
-
-/* stars */
-
 .stars{
   display:flex;
   gap:5px;
@@ -596,8 +575,6 @@ color: white;
   color:#f1c54f;
 }
 
-/* textarea */
-
 .review-textarea{
   width:100%;
   height:70px;
@@ -611,8 +588,6 @@ color: white;
   font-family:inherit;
 }
 
-/* button */
-
 .submit-btn{
   margin-top:15px;
   padding:10px 25px;
@@ -625,7 +600,6 @@ color: white;
   font-family:inherit;
 }
 
-/* cards */
 
 .review-card{
   display:flex;
@@ -682,14 +656,10 @@ color: white;
 }
 @media (max-width: 700px) {
 
-  /* HERO */
-
   .hero {
     height: auto;
     padding-bottom: 40px;
   }
-
-  /* HEADER */
 
   .header {
     flex-direction: column;
@@ -735,8 +705,6 @@ color: white;
     padding: 12px 18px;
   }
 
-  /* CONTENT */
-
   .content {
     max-width: 100%;
     padding: 30px 20px 0;
@@ -753,8 +721,6 @@ color: white;
     margin-bottom: 30px;
   }
 
-  /* BUTTONS */
-
   .buttons {
     flex-direction: column;
     align-items: center;
@@ -770,8 +736,6 @@ color: white;
     padding: 15px;
   }
 
-  /* REVIEWS */
-
   .reviews {
     padding: 20px 15px;
   }
@@ -780,8 +744,6 @@ color: white;
     font-size: 36px;
     margin-bottom: 25px;
   }
-
-  /* REVIEW FORM */
 
   .review-form {
     flex-direction: column;
@@ -831,8 +793,6 @@ color: white;
     font-size: 18px;
   }
 
-  /* REVIEW CARDS */
-
   .review-card {
     flex-direction: column;
     align-items: center;
@@ -866,8 +826,6 @@ color: white;
     font-size: 18px;
     padding: 15px;
   }
-
-  /* FOOTER */
 
   footer {
     height: auto;

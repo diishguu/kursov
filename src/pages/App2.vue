@@ -115,7 +115,7 @@ const footerDocuments = [
       style="background: url('/src/assets/Group 35.png') center/cover no-repeat;"
   >
 
-    <!-- HEADER -->
+
     <header class="header">
 
       <div class="logo">
@@ -157,10 +157,10 @@ const footerDocuments = [
 
     </header>
 
-    <!-- MAIN -->
+
     <div class="main-block">
 
-      <!-- TEXT -->
+
       <div class="content">
 
         <h1>
@@ -176,7 +176,6 @@ const footerDocuments = [
 
       </div>
 
-      <!-- FORM -->
       <div class="form-box">
 
         <h2>Введите данные</h2>
@@ -186,7 +185,7 @@ const footerDocuments = [
             @submit.prevent="submitForm"
         >
 
-          <!-- ИМЯ -->
+
           <input
               v-model="form.name"
               type="text"
@@ -201,7 +200,7 @@ const footerDocuments = [
             {{ errors.name }}
           </p>
 
-          <!-- ТЕЛЕФОН -->
+
           <input
               v-model="form.phone"
               type="tel"
@@ -216,7 +215,7 @@ const footerDocuments = [
             {{ errors.phone }}
           </p>
 
-          <!-- EMAIL -->
+
           <input
               v-model="form.email"
               type="email"
@@ -231,7 +230,6 @@ const footerDocuments = [
             {{ errors.email }}
           </p>
 
-          <!-- PEOPLE -->
           <div class="people-title">
             Количество человек
           </div>
@@ -302,12 +300,10 @@ const footerDocuments = [
 
           </div>
 
-          <!-- DATE -->
           <div class="date-title">
             Дата :
           </div>
 
-          <!-- START DATE -->
           <div class="date-group">
 
             <label>Начало</label>
@@ -331,7 +327,6 @@ const footerDocuments = [
 
           </div>
 
-          <!-- END DATE -->
           <div class="date-group">
 
             <label>Конец</label>
@@ -355,7 +350,6 @@ const footerDocuments = [
 
           </div>
 
-          <!-- BUTTON -->
           <div class="buttons">
 
             <button type="submit">
@@ -372,7 +366,6 @@ const footerDocuments = [
 
   </section>
 
-  <!-- FOOTER -->
   <footer
       class="footer"
       id="contacts"
@@ -729,8 +722,6 @@ footer p {
   justify-content: space-around;
   color: white;
 }
-
-/* ERRORS */
 .errorText {
   color: red;
   font-size: 14px;
@@ -747,7 +738,6 @@ footer p {
     min-height: auto;
   }
 
-  /* HEADER */
   .header {
     flex-direction: column;
     align-items: center;
@@ -791,7 +781,6 @@ footer p {
     margin-left: 0;
   }
 
-  /* MAIN */
   .main-block {
     flex-direction: column;
     align-items: center;
@@ -813,7 +802,6 @@ footer p {
     font-size: 24px;
   }
 
-  /* FORM */
   .form-box {
     width: 100%;
     padding: 25px 20px;
@@ -849,7 +837,6 @@ footer p {
     padding: 15px;
   }
 
-  /* FOOTER */
   footer {
     height: auto;
     padding: 25px 15px;
